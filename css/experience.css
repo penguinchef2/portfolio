@@ -1,0 +1,246 @@
+* {
+   margin: 0px;
+}
+body{
+  
+    width: 100%;
+    background-color:#150F2A;
+
+}
+ main{
+
+    width: 100%;
+    background-color:#150F2A;
+ }
+
+ .experienceme
+ {
+   max-width: 700px;
+    padding: 110px;
+   margin: -100px -40px -65px 375px;
+  
+ 
+ }
+
+ .exptitle{
+    color: #fff;
+    font-family: 'Playfair Display';
+    font-size : 40px;
+    opacity: 0.8;
+    margin-bottom: 0px;
+    margin-left: 175px;
+
+
+ }
+
+
+.description{
+    color: #fff;
+    font-family: 'Playfair Display';
+    position:absolute;
+    left: 270px;
+    top:145px;
+
+ }
+
+
+.navigationbar{
+    border-radius: 5px;
+    height: 70px;
+    width: 1700px;
+    background-color:#C4A8D4;
+    opacity: 0.4;
+    
+}
+
+nav a {
+    position: relative;
+    display: inline-block;
+    padding: 25px 125px;
+}
+
+.button1{
+    border-radius: 5px;
+    height: 85px;
+    width: 1200px;
+    background-color:#C4A8D4;
+    margin-left: 200px;
+    margin-top: 20px;
+    transition: box-shadow 1s;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    padding-left: 70px;
+    text-align: left;
+}
+
+.sdeinfo{
+    visibility: hidden;
+    
+  
+}
+
+.button2{
+    border-radius: 5px;
+    height: 85px;
+    width: 1200px;
+    background-color:#b8a0c7;
+    margin-left: 200px;
+    margin-top: 75px;
+    transition: 1s;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    padding-left: 70px;
+    text-align: left;
+   
+}
+
+.dainfo {
+     visibility: hidden;
+
+}
+.button3{
+  border-radius: 5px;
+    height: 85px;
+    width: 1200px;
+    background-color:#b8a0c7;
+    margin-left: 200px;
+    margin-top: 75px;
+    transition: 1s;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    padding-left: 70px;
+    text-align: left;
+}
+
+.rainfo {
+     visibility: hidden;
+
+}
+
+.button4{
+    border-radius: 5px;
+    height: 85px;
+    width: 1200px;
+    background-color:#C4A8D4;
+    margin-left: 200px;
+    margin-top: 75px;
+    transition: box-shadow 1s;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    padding-left: 70px;
+    text-align: left;
+}
+
+.reinfo {
+     visibility: hidden;
+
+}
+
+.button5{
+    border-radius: 5px;
+    height: 85px;
+    width: 1200px;
+    background-color:#C4A8D4;
+    margin-left: 200px;
+    margin-top: 55px;
+     transition: box-shadow 1s;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    padding-left: 70px;
+    text-align: left;
+}
+
+.geninfo {
+     visibility: hidden;
+
+}
+
+.button1:hover{
+
+    box-shadow: 15px 16px rgba(196, 168, 212,0.4);
+
+}
+
+.button1:hover .sdeinfo{
+    visibility: visible;
+    transition: visibility 0.3s;
+    
+}
+
+.button2:hover{
+
+    box-shadow: 15px 16px rgba(196, 168, 212,0.4);
+
+}
+
+.button2:hover .dainfo{
+    visibility: visible;
+  
+
+}
+
+.button3:hover{
+
+    box-shadow: 15px 16px rgba(196, 168, 212,0.4);
+
+}
+
+.button3:hover .rainfo{
+    visibility: visible;
+  
+
+}
+
+.button4:hover{
+
+    box-shadow: 15px 16px rgba(196, 168, 212,0.4);
+
+}
+
+.button4:hover .reinfo{
+    visibility: visible;
+  
+
+}
+
+.button5:hover{
+
+    box-shadow: 15px 16px rgba(196, 168, 212,0.4);
+
+}
+
+.button5:hover .geninfo{
+    visibility: visible;
+  
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.circledecor{
+  height: 60px;
+  width: 60px;
+  background: #982649;
+  border-radius: 50%;
+  margin-left: 120px;
+  opacity: 0.7;
+  margin-top: 17px;
+  position: absolute;
+  margin-bottom: 500px;
+
+}
+
+.circledecor2{
+  height: 60px;
+  width: 60px;
+  background: #982649;
+  border-radius: 50%;
+  margin-left: 120px;
+  opacity: 0.7;
+  margin-top: 85px;
+  position: absolute;
+
+}
