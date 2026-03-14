@@ -43,20 +43,35 @@ body{
 
  }
 
+nav a {
+   display: inline-block;
+   padding: 25px 45px 25px 45px;
+   
+}
 
 .navigationbar{
-    border-radius: 5px;
-    height: 70px;
-    width: 1700px;
-    background-color:#C4A8D4;
-    opacity: 0.4;
+   display: flex;
+   justify-content: flex-end;
+
+}
+
+a {
+
+   color:#fff;
+   text-decoration: none;
+
+}
+
+.abouthover{
+   border-radius: 5px;
     
 }
 
-nav a {
-    position: relative;
-    display: inline-block;
-    padding: 25px 125px;
+
+.abouthover:hover{
+   background: #7a5b8b;
+   filter: brightness(120%)
+
 }
 
 .button1{
@@ -215,10 +230,6 @@ nav a {
 
 }
 
-a {
-    color: inherit;
-    text-decoration: none;
-}
 
 .circledecor{
   height: 60px;

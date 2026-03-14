@@ -27,7 +27,7 @@ body{
     font-family: 'Playfair Display';
     font-size : 70px;
     margin-bottom: 0px;
-    margin-left: 35px;
+    margin-left: 50px;
 
  }
 
@@ -42,6 +42,7 @@ body{
 .description{
     color: #fff;
     font-family: 'Playfair Display';
+    margin-top: 30px;
  }
 
  .learnbtn{
@@ -75,7 +76,7 @@ body{
 
  .contactbtn:hover{
     filter: brightness(150%);
-    transform: translateY(-10px)
+    transform: translateY(-10px);
  }
 
 .learnbtn:hover{
@@ -84,19 +85,19 @@ body{
     opacity: 1;
  }
 
-.navigationbar{
-    border-radius: 5px;
-    height: 70px;
-    width: 1700px;
-    background-color: #C4A8D4;
-    
 
-}
 
 nav a {
-    position: relative;
-    display: inline-block;
-    padding: 25px 125px;
+   display: inline-block;
+   padding: 25px 45px 25px 45px;
+   transition: 0.6s;
+   
+}
+
+.navigationbar{
+   display: flex;
+   justify-content: flex-end;
+
 }
 
 a {
@@ -120,16 +121,13 @@ a {
 }
 
 .abouthover{
-   border-radius: 15px;
+   border-radius: 5px;
     
 }
 
 
 .abouthover:hover{
-   
-   transition: 0.4s, ease;
    background: #7a5b8b;
    filter: brightness(120%)
-   
 
 }
