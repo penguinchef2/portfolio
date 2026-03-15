@@ -28,8 +28,7 @@ body{
     font-size : 40px;
     opacity: 0.8;
     margin-bottom: 0px;
-    margin-left: 175px;
-
+    margin-left: 225px;
 
  }
 
@@ -52,7 +51,7 @@ nav a {
 .navigationbar{
    display: flex;
    justify-content: flex-end;
-
+   box-shadow: 0 2px 7px rgba(196, 168, 212,0.1)
 }
 
 a {
@@ -74,175 +73,115 @@ a {
 
 }
 
+.infobox{
+    width: 1070px;
+    height: 0;
+  background-color: rgba(196, 168, 212,0.6);
+  margin-left: 325px;
+  margin-top: 0px;
+  opacity: 0;
+
+
+}
+
 .button1{
     border-radius: 5px;
     height: 85px;
-    width: 1200px;
+    width: 1000px;
     background-color:#C4A8D4;
-    margin-left: 200px;
-    margin-top: 20px;
-    transition: box-shadow 1s;
+    margin-left: 325px;
+    margin-top: 60px;
     font-family: 'Playfair Display';
     font-size: 20px;
     padding-left: 70px;
     text-align: left;
+    border: 5px solid rgba(69, 18, 99, 0.1);
 }
 
-.sdeinfo{
-    visibility: hidden;
-    
-  
+.button1:hover + .infobox{
+    height: 200px;
+    opacity: 1;
+    transition: 2s;
+
 }
 
 .button2{
-    border-radius: 5px;
-    height: 85px;
-    width: 1200px;
-    background-color:#b8a0c7;
-    margin-left: 200px;
-    margin-top: 75px;
-    transition: 1s;
-    font-family: 'Playfair Display';
-    font-size: 20px;
-    padding-left: 70px;
-    text-align: left;
+  border-radius: 5px;
+  height: 85px;
+  width: 1000px;
+  background-color: #b8a0c7;
+  margin-left: 325px;
+  margin-top: 50px;
+  transition: 1s;
+  font-family: 'Playfair Display';
+  font-size: 20px;
+  padding-left: 70px;
+  text-align: left;
+  border: 5px solid rgba(69, 18, 99, 0.1);
    
 }
 
-.dainfo {
-     visibility: hidden;
+.button2:hover + .infobox{
+    height: 200px;
+    opacity: 1;
 
 }
+
+
 .button3{
-  border-radius: 5px;
-    height: 85px;
-    width: 1200px;
-    background-color:#b8a0c7;
-    margin-left: 200px;
-    margin-top: 75px;
-    transition: 1s;
-    font-family: 'Playfair Display';
-    font-size: 20px;
-    padding-left: 70px;
-    text-align: left;
+border-radius: 5px;
+  height: 85px;
+  width: 1000px;
+  background-color: #b8a0c7;
+  margin-left: 325px;
+  margin-top: 50px;
+  transition: 1s;
+  font-family: 'Playfair Display';
+  font-size: 20px;
+  padding-left: 70px;
+  text-align: left;
+  border: 5px solid rgba(69, 18, 99, 0.1);
 }
 
-.rainfo {
-     visibility: hidden;
+.button3:hover + .infobox{
+    height: 200px;
+    opacity: 1;
 
 }
 
 .button4{
-    border-radius: 5px;
-    height: 85px;
-    width: 1200px;
-    background-color:#C4A8D4;
-    margin-left: 200px;
-    margin-top: 75px;
-    transition: box-shadow 1s;
-    font-family: 'Playfair Display';
-    font-size: 20px;
-    padding-left: 70px;
-    text-align: left;
+border-radius: 5px;
+  height: 85px;
+  width: 1000px;
+  background-color: #b8a0c7;
+  margin-left: 325px;
+  margin-top: 200px;
+  transition: 1s;
+  font-family: 'Playfair Display';
+  font-size: 20px;
+  padding-left: 70px;
+  text-align: left;
 }
-
-.reinfo {
-     visibility: hidden;
-
-}
-
 .button5{
-    border-radius: 5px;
-    height: 85px;
-    width: 1200px;
-    background-color:#C4A8D4;
-    margin-left: 200px;
-    margin-top: 55px;
-     transition: box-shadow 1s;
-    font-family: 'Playfair Display';
-    font-size: 20px;
-    padding-left: 70px;
-    text-align: left;
-}
-
-.geninfo {
-     visibility: hidden;
-
-}
-
-.button1:hover{
-
-    box-shadow: 15px 16px rgba(196, 168, 212,0.4);
-
-}
-
-.button1:hover .sdeinfo{
-    visibility: visible;
-    transition: visibility 0.3s;
-    
-}
-
-.button2:hover{
-
-    box-shadow: 15px 16px rgba(196, 168, 212,0.4);
-
-}
-
-.button2:hover .dainfo{
-    visibility: visible;
-  
-
-}
-
-.button3:hover{
-
-    box-shadow: 15px 16px rgba(196, 168, 212,0.4);
-
-}
-
-.button3:hover .rainfo{
-    visibility: visible;
-  
-
-}
-
-.button4:hover{
-
-    box-shadow: 15px 16px rgba(196, 168, 212,0.4);
-
-}
-
-.button4:hover .reinfo{
-    visibility: visible;
-  
-
-}
-
-.button5:hover{
-
-    box-shadow: 15px 16px rgba(196, 168, 212,0.4);
-
-}
-
-.button5:hover .geninfo{
-    visibility: visible;
-  
-
+ border-radius: 5px;
+  height: 85px;
+  width: 1000px;
+  background-color: #b8a0c7;
+  margin-left: 325px;
+  margin-top: 200px;
+  transition: 1s;
+  font-family: 'Playfair Display';
+  font-size: 20px;
+  padding-left: 70px;
+  text-align: left;
 }
 
 
-.circledecor{
-  height: 60px;
-  width: 60px;
-  background: #982649;
-  border-radius: 50%;
-  margin-left: 120px;
-  opacity: 0.7;
-  margin-top: 17px;
-  position: absolute;
-  margin-bottom: 500px;
-
+.button1:not(:hover) + .infobox{
+    transition: opacity 1s;
+    opacity: 0;
 }
+
 
 .circledecor2{
   height: 60px;
