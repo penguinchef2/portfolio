@@ -16,9 +16,9 @@ body{
 
  .aboutme
  {
-max-width: 600px;
+   max-width: 600px;
   padding: 120px;
-  margin: 70px 70px 0 100px;
+  margin: 70px 70px 0 120px;
  
  }
 
@@ -40,15 +40,16 @@ max-width: 600px;
  }
 
 .description{
-    color: #fff;
-    font-family: 'Playfair Display';
-    margin-top: 30px;
+   color: #fff;
+  font-family: 'Playfair Display';
+  margin-top: 30px;
+  margin-bottom: 50px;
  }
 
  .learnbtn{
     width: 150px;
     height: 60px;
-    border-radius: 5px;
+    border-radius: 30px;
     background-color: #C4A8D4;
     color: #fff;
     font-family: 'Playfair Display';
@@ -65,7 +66,7 @@ max-width: 600px;
     background-color: #982649;
     width: 150px;
     height: 60px;
-    border-radius: 5px;
+    border-radius: 30px;
     border-color: #982649;
     color: #fff;
     font-family: 'Playfair Display';

@@ -15,9 +15,9 @@ body{
 
  .educationme
  {
-   max-width: 700px;
-    padding: 110px;
-   margin: -100px -40px -65px 375px;
+  max-width: 700px;
+  padding: 110px;
+  margin: -100px -40px -65px 405px;
   
  
  }
@@ -40,6 +40,12 @@ body{
   position: absolute;
   left: 270px;
   top: 195px;
+
+ }
+
+ .skilltitledesc{
+
+    margin-left: 250px;
 
  }
 
@@ -75,12 +81,6 @@ a {
    filter: brightness(120%);
 
 }
-
-.button1{
-
-  
-}
-
 .sdeinfo{
     visibility: hidden;
   
@@ -88,22 +88,15 @@ a {
 
 .experiencebuttons{
 
-  background-color: rgba(196, 168, 212, 0.07);
+ background-color: rgba(196, 168, 212, 0.07);
   margin-top: 40px;
-  margin-left: 60px;
-  margin-right: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
   height: 600px;
   border-radius: 30px;
+  margin-bottom: 0px;
 
 }
-
-.button2{
-
-
-  
-}
-   
-
 
 .dainfo {
      visibility: hidden;
@@ -164,8 +157,9 @@ color: #fff;
   font-family: 'Playfair Display';
   position: absolute;
   left: 270px;
-  top: 860px;
+  top: 1020px;
 }
+
 
 .projects {
  display: grid;
@@ -177,19 +171,63 @@ color: #fff;
  
 }
 
+.skillsbox{
+    display: grid;
+  grid-template-columns: 250px 250px 250px 250px 250px;
+  grid-template-rows: 200px 200px;
+  place-items: center;
+  gap: 0px;
+  margin-top: 40px;
+  margin-left: -40px;
+  margin-right: 130px;
+  padding-right: 0px;
+  height: 500px;
+
+}
+
+.skillscontainer{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background: rgba(196, 168, 212, 1);
+  transition: 0.4s;
+   border: 2px solid rgba(196, 168, 212, 1);
+  border-radius: 20px;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #7a5b8b;
+   
+
+}
+
+.skillname{
+  font-size: x-large;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 25px;
+  color: black;
+}
+
+.skillscontainer:hover{
+   background-color: #150F2A;
+}
+
+.skillscontainer:hover .skillname{
+    color:#fff
+}
 .projectcontainer{
-margin-left: 20px;
+  margin-left: 20px;
   margin-left: 40px;
   margin-right: 40px;
   height: 200px;
   margin-top: 40px;
   margin-bottom: 40px;
-  background: rgba(196, 168, 212, 1);
+  background: rgb(21, 15, 42);
   transition: 0.4s;
-  box-shadow: 8px 8px 2px rgba(196, 168, 212, 0.4);
+  border: 5px solid rgba(196, 168, 212, 1) ;
   border-radius: 20px;
    
-     
 }
 
 
@@ -201,19 +239,68 @@ margin-left: 20px;
 
 .projectcontainer:hover{
     transform: translateY(-10px);
-     box-shadow: 2px 2px 30px rgba(196, 168, 212, 1);
+    box-shadow: 2px 2px 10px rgba(196, 168, 212, 1);
+    background:rgba(196, 168, 212, 1);
+    color:#fff
+    
+}
+
+.projectcontainer:hover .projectdescription{
+    color:black
     
 }
 
 .project1name{
-    margin-top: 30px;
-  margin-left: 150px;
-  color:#fff;
-  size: 130px;
+margin-top: 20px;
+  margin-left: 130px;
+  color: #fff;
 }
 
 .projectdescription{
+    color: #fff;
     margin-left: 20px;
   margin-right: 20px;
   margin-top: 10px;
+}
+
+.fa-brands.fa-openai{
+  color: rgb(177, 151, 252);
+  font-size: 50px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.fa-solid.fa-briefcase-medical{
+  color: rgb(177, 151, 252);
+  font-size: 50px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.fa-solid.fa-toolbox{
+  color: rgb(177, 151, 252);
+  font-size: 50px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.fa-solid.fa-chalkboard-user{
+  color: rgb(177, 151, 252);
+  font-size: 50px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.fa-brands.fa-openai{
+  color: rgb(177, 151, 252);
+  font-size: 50px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+
+.fa-solid.fa-building-shield{
+  color: rgb(177, 151, 252);
+  font-size: 50px;
+  margin-left: 150px;
+  margin-top: 30px;
 }

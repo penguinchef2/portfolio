@@ -6,17 +6,18 @@
     <title>Contact</title>
     <link rel = "stylesheet" href = "../css/contact.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <main>
             <section class = "navigation">
             <nav class = "navigationbar">
             <ul>
-                <a class = "abouthover" href = "home.html"> About </a>
-                <a class = "abouthover" href = "experience.html"> Experience </a>
-                <a class = "abouthover" href = "education.html"> Education </a>
-                <a class = "abouthover" href = "skills.html"> Skills </a>
-                <a class = "abouthover" href = "contact.html"> Contact </a>
+                <a class = "abouthover" href = "home.html"><i class="fa-solid fa-house"></i> About </a>
+                <a class = "abouthover" href = "experience.html"><i class="fa-regular fa-user"></i> Experience </a>
+                <a class = "abouthover" href = "education.html"><i class="fa-solid fa-book"></i> Education </a>
+                <a class = "abouthover" href = "skills.html"><i class="fa-solid fa-pen"></i> Skills </a>
+                <a class = "abouthover" href = "contact.html"><i class="fa-solid fa-phone"></i> Contact </a>
             </ul>
             </nav>
         </section>
@@ -24,17 +25,33 @@
         <section class="educationme">
             <div class = "profilecontent">
             <h1 class = "edutitle"> Get in Touch! </h1>
-            <h4 class = "contactsub"> Send me a message: </h4>
-            <span class="iconsub"><h4>Connect with me</h4></span>
+            
          </section>
 
-         <section class = "contactformback">
-            <button class = "button1"> Software Development Intern
-            <span class = "sdeinfo">- Worked closely with technologies like C#, .Net, SQL</span></button> 
-            <button class = "button2"> Data Analytics Intern
-            <span class = "dainfo">- Clinical Research analysis with tech like CTMS, SQL</span></button> 
+
+        <section class = "form">
+         <form action="https://formspree.io/f/xlgpplwl" method="POST">
+            <label for ="title" class ="labelheading">Send me a Message!</label><br>
+            <label for ="name" class ="labeltitle">Name</label><br>
+            <input type ="text" name ="name" class = "labelsection" required placeholder = "Enter your name"> <br>
+
+            <label for ="email" class ="labeltitle">Email</label><br>
+            <input type ="text" name = "email" class = "labelsection" required placeholder = "Enter your email address"><br>
+
+            <label for ="message" class ="labeltitle">Message:</label><br>
+            <input type ="text" name= "message" class = "labelsection"required placeholder = "Enter a message"><br>
+            <button type = "submit" class ="subbutton">Submit</button>
+         </form>
+         </section>
+
+         <section class="buttons">
+            <label for ="title" class ="iconsub">Connect with me</label><br>
+            <a href="https://www.linkedin.com/in/ajithkumar-amitha/"><i class="fa-brands fa-linkedin" style="color: rgb(116, 192, 252);"></i></a><p class ="linkname">LinkedIn</p>
+           <span class="githubicon"><a href="https://github.com/penguinchef2"><i class="fa-brands fa-github" style="color: rgb(255, 212, 59);"></i></span></a><p class ="gitname">Github</p>
 
          </section>
+
+      
          
     
     </main>

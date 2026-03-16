@@ -76,155 +76,85 @@ a {
 
 }
 
-.button1{
-  border-radius: 5px;
-  height: 400px;
-  width: 600px;
-  background-color: #C4A8D4;
-  margin-left: 180px;
-  margin-top: 70px;
-  font-family: 'Playfair Display';
-  font-size: 20px;
-  padding-left: 70px;
-  text-align: left;
-  box-shadow: 15px 16px rgba(204, 93, 93, 0.4);
-  transition: 0.4s;
-  
-}
+.form{
 
-.sdeinfo{
-    visibility: hidden;
-  
-}
-
-.button2{
-
-
-  border-radius: 5px;
-  height: 400px;
-  width: 600px;
-  background-color: #C4A8D4;
-  margin-left: 70px;
-  margin-top: 70px;
-  transition: box-shadow 1s;
-  font-family: 'Playfair Display';
-  font-size: 20px;
-  padding-left: 70px;
-  text-align: left;
-  box-shadow: 15px 16px rgba(204, 93, 93, 0.5);
-  transition: 0.4s;
-  
-}
-   
-
-
-.dainfo {
-     visibility: hidden;
-     transition: visibility 0.4s;
-
-}
-
-.button1:hover{
-    transform: translateY(-10px);
-    box-shadow: 2px 2px 40px rgba(204, 93, 93, 1);
-
-}
-
-.button1:hover .sdeinfo{
-    visibility: visible;
-     
-    
-}
-
-.button2:hover{
-    transform: translateY(-10px);
-    box-shadow: 2px 2px 40px rgba(204, 93, 93, 1);
-
-
-}
-
-.button2:hover .dainfo{
-    visibility: visible;
-  
-
-}
-
-
-
-
- .certme
- {
-   max-width: 2000px;
-   padding: 110px;
-   margin: -10px -4px -65px 150px;
-  
- 
- }
-
- .certtitle{
-  color: #fff;
-  font-family: 'Playfair Display';
-  font-size: 40px;
-  opacity: 0.8;
-  margin-bottom: 0px;
-  margin-left: 475px;
-
- }
-
-
-.certdescription{
-color: #fff;
-  font-family: 'Playfair Display';
-  position: absolute;
-  left: 270px;
-  top: 860px;
-}
-
-.projects {
-display: grid;
-  grid-template-columns: 0.75fr 0.75fr 0.75fr;
-  gap: 0px;
-  margin-top: 70px;
-  margin-left: 130px;
-  margin-right: 130px;
- 
-}
-
-.projectcontainer{
-margin-left: 20px;
-margin-left: 40px;
-  margin-right: 40px;
+background: #1e1a2e;
+  margin-left: 100px;
+  margin-right: 1000px;
   height: 500px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  background: rgba(29, 23, 56, 0.8);
-  transition: 0.4s;
-  box-shadow: 8px 8px 2px rgba(196, 168, 212, 0.4);
-    
-}
-
-
-.projectimage{
-    margin-top: 40px;
-    margin-left: 75px;
+  border-radius: 20px;
+  border:3px solid rgba(196, 168, 212,0.1)
 
 }
 
-.projectcontainer:hover{
-    transform: translateY(-10px);
-     box-shadow: 2px 2px 30px rgba(196, 168, 212, 1);
-    
+.labelsection{
+  margin-left: 40px;
+  height:40px;
+  width:440px;
+  border-radius:10px;
+
 }
 
-.project1name{
-    margin-top: 30px;
-  margin-left: 150px;
-  color:#fff;
-  size: 130px;
+.labeltitle{
+  font-size: 20px;
+  margin-left: 40px;
+  color: #fff;
+  display:block;
+  padding-top:15px;
+
+
 }
 
-.projectdescription{
-    margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
+.labelheading{
+
+  font-size: 30px;
+  margin-left: 145px;
+  color: #fff;
+  display:block;
+  padding-top:20px;
+
+}
+
+.subbutton{
+  margin-left:155px;
+  margin-top:30px;
+  height:40px;
+  width:200px;
+  border-radius:20px;
+  background-color: #7a5b8b;
+  cursor: pointer;
+}
+
+.buttons{
+
+  margin-left: 1000px;
+  margin-right: 100px;
+  margin-top: -500px;
+  height: 500px;
+  border-radius: 20px;
+
+
+}
+
+.fa-brands.fa-linkedin{
+  font-size: 100px;
+  padding-top: 80px;
+}
+
+.githubicon{
+font-size: 100px;
+  margin-left: 240px;
+  margin-top: -120px;
+  display: block;
+  cursor: pointer;
+}
+
+.iconsub{
+
+  font-size: 30px;
+  margin-left: 40px;
+  color: #fff;
+  display:block;
+  padding-top:15px;
+
 }

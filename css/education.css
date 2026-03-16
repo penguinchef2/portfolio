@@ -92,10 +92,6 @@ a {
   
 }
 
-.sdeinfo{
-    visibility: hidden;
-  
-}
 
 .button2{
 
@@ -116,13 +112,6 @@ height: 300px;
   
 }
    
-
-
-.dainfo {
-     visibility: hidden;
-     transition: visibility 0.4s;
-
-}
 
 .button1:hover{
     transform: translateY(-10px);
@@ -148,9 +137,6 @@ height: 300px;
   
 
 }
-
-
-
 
  .certme
  {
@@ -182,7 +168,7 @@ color: #fff;
 }
 
 .projects {
-display: grid;
+  display: grid;
   grid-template-columns: 0.75fr 0.75fr 0.75fr;
   gap: 0px;
   margin-top: 70px;
@@ -207,10 +193,20 @@ margin-left: 40px;
     
 }
 
+.githubbutton{
+width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #C4A8D4;
+  margin-left: 130px;
+  margin-top: 20px;
+  font-size: xx-large;
+  cursor:pointer;
+}
 
 .projectimage{
-  margin-top: 40px;
-  margin-left: 75px;
+margin-top: 40px;
+  margin-left: 60px;
   height: 225px;
   border-radius: 20px;
   width: 255px;
@@ -228,7 +224,6 @@ margin-top: 30px;
   margin-left: 140px;
   color: #fff;
   size: 130px;
-  text-size: 20px;
   height: 40px;
   font-size: x-large;
 }
