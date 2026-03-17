@@ -1,17 +1,17 @@
 * {
-   margin: 0px;
+  margin: 0px;
 }
 
 body{
   
-    width: 100%;
-    background-color:#150F2A;
+  width: 100%;
+  background-color:#150F2A;
 
 }
  main{
 
-    width: 100%;
-    background-color:#150F2A;
+  width: 100%;
+  background-color:#150F2A;
  }
 
  .educationme
@@ -59,37 +59,36 @@ nav a {
 }
 
 .navigationbar{
-   display: flex;
-   justify-content: flex-end;
-   box-shadow: 0 2px 7px rgba(196, 168, 212,0.1)
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 0 2px 7px rgba(196, 168, 212,0.1)
 }
 
 a {
 
-   color:#fff;
-   text-decoration: none;
+  color:#fff;
+  text-decoration: none;
 
 }
 
 .abouthover{
-   border-radius: 5px;
+  border-radius: 5px;
     
 }
 
 
 .abouthover:hover{
-   background: #7a5b8b;
-   filter: brightness(120%);
+  background: #7a5b8b;
+  filter: brightness(120%);
 
 }
 .sdeinfo{
-    visibility: hidden;
+  visibility: hidden;
   
 }
 
 .experiencebuttons{
-
-background-color: rgba(196, 168, 212, 0.07);
+  background-color: rgba(196, 168, 212, 0.07);
   margin-top: 40px;
   margin-left: 120px;
   margin-right: 120px;
@@ -99,26 +98,26 @@ background-color: rgba(196, 168, 212, 0.07);
 }
 
 .dainfo {
-     visibility: hidden;
-     transition: visibility 0.4s;
+  visibility: hidden;
+  transition: visibility 0.4s;
 
 }
 
 .button1:hover{
-    transform: translateY(-10px);
-    box-shadow: 2px 2px 40px rgba(204, 93, 93, 1);
+  transform: translateY(-10px);
+  box-shadow: 2px 2px 40px rgba(204, 93, 93, 1);
 
 }
 
 .button1:hover .sdeinfo{
-    visibility: visible;
+  visibility: visible;
      
     
 }
 
 .button2:hover{
-    transform: translateY(-10px);
-    box-shadow: 2px 2px 40px rgba(204, 93, 93, 1);
+  transform: translateY(-10px);
+  box-shadow: 2px 2px 40px rgba(204, 93, 93, 1);
 
 
 }
@@ -139,7 +138,7 @@ background-color: rgba(196, 168, 212, 0.07);
  }
 
  .certtitle{
-color: #fff;
+  color: #fff;
   font-family: 'Playfair Display';
   font-size: 40px;
   opacity: 0.8;
@@ -150,16 +149,16 @@ color: #fff;
 
 
 .certdescription{
-color: #fff;
+  color: #fff;
   font-family: 'Playfair Display';
   position: absolute;
   left: 270px;
-  top: 170px;
+  top: 870px;
 }
 
 
 .projects {
-display: grid;
+  display: grid;
   grid-template-columns: 0.75fr 0.75fr 0.75fr;
   gap: 0px;
   margin-top: 0px;
@@ -169,7 +168,7 @@ display: grid;
 }
 
 .skillsbox{
-display: grid;
+  display: grid;
   grid-template-columns: 250px 250px 250px 250px 250px;
   grid-template-rows: 200px 200px;
   place-items: center;
@@ -189,7 +188,7 @@ display: grid;
   margin-bottom: 40px;
   background: rgba(196, 168, 212, 1);
   transition: 0.4s;
-   border: 2px solid rgba(196, 168, 212, 1);
+  border: 2.5px solid rgba(196, 168, 212, 1);
   border-radius: 20px;
   width: 200px;
   height: 100px;
@@ -207,11 +206,11 @@ display: grid;
 }
 
 .skillscontainer:hover{
-   background-color: #150F2A;
+  background-color: #150F2A;
 }
 
 .skillscontainer:hover .skillname{
-    color:#fff
+  color:#fff
 }
 .projectcontainer{
   margin-left: 20px;
@@ -229,33 +228,33 @@ display: grid;
 
 
 .projectimage{
-    margin-top: 40px;
-    margin-left: 75px;
+  margin-top: 40px;
+  margin-left: 75px;
 
 }
 
 .projectcontainer:hover{
-    transform: translateY(-10px);
-    box-shadow: 2px 2px 10px rgba(196, 168, 212, 1);
-    background:rgba(196, 168, 212, 1);
-    color:#fff
+  transform: translateY(-10px);
+  box-shadow: 2px 2px 10px rgba(196, 168, 212, 1);
+  background:rgba(196, 168, 212, 1);
+  color:#fff
     
 }
 
 .projectcontainer:hover .projectdescription{
-    color:black
+  color:black
     
 }
 
 .project1name{
-margin-top: 20px;
+  margin-top: 20px;
   margin-left: 130px;
   color: #fff;
 }
 
 .projectdescription{
-    color: #fff;
-    margin-left: 20px;
+  color: #fff;
+  margin-left: 20px;
   margin-right: 20px;
   margin-top: 10px;
 }

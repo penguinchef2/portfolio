@@ -1,23 +1,23 @@
 * {
-   margin: 0px;
+  margin: 0px;
 }
 body{
   
-    width: 100%;
-    background-color:#150F2A;
+  width: 100%;
+  background-color:#150F2A;
 
 }
  main{
 
-    width: 100%;
-    background-color:#150F2A;
+  width: 100%;
+  background-color:#150F2A;
  }
 
  .educationme
  {
-   max-width: 700px;
-    padding: 110px;
-   margin: -100px -40px -65px 375px;
+  max-width: 700px;
+  padding: 110px;
+  margin: -100px -40px -65px 375px;
   
  
  }
@@ -35,7 +35,7 @@ body{
 
 
 .description{
-    color: #fff;
+  color: #fff;
   font-family: 'Playfair Display';
   position: absolute;
   left: 270px;
@@ -44,35 +44,35 @@ body{
  }
 
 nav a {
-   display: inline-block;
-   padding: 25px 45px 25px 45px;
-   transition: 0.6s;
+  display: inline-block;
+  padding: 25px 45px 25px 45px;
+  transition: 0.6s;
 
    
 }
 
 .navigationbar{
-   display: flex;
-   justify-content: flex-end;
-   box-shadow: 0 2px 7px rgba(196, 168, 212,0.1)
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 0 2px 7px rgba(196, 168, 212,0.1)
 }
 
 a {
 
-   color:#fff;
-   text-decoration: none;
+  color:#fff;
+  text-decoration: none;
 
 }
 
 .abouthover{
-   border-radius: 5px;
+  border-radius: 5px;
     
 }
 
 
 .abouthover:hover{
-   background: #7a5b8b;
-   filter: brightness(120%);
+  background: #7a5b8b;
+  filter: brightness(120%);
 
 }
 
@@ -97,7 +97,7 @@ a {
 
 
   border-radius: 50px;
-height: 300px;
+  height: 300px;
   width: 500px;
   background-color: #C4A8D4;
   margin-left: 70px;
@@ -114,35 +114,35 @@ height: 300px;
    
 
 .button1:hover{
-    transform: translateY(-10px);
-    box-shadow: 2px 2px 40px rgba(204, 93, 93, 1);
+  transform: translateY(-10px);
+  box-shadow: 2px 2px 40px rgba(204, 93, 93);
 
 }
 
 .button1:hover .sdeinfo{
-    visibility: visible;
+  visibility: visible;
      
     
 }
 
 .button2:hover{
-    transform: translateY(-10px);
-    box-shadow: 2px 2px 40px rgba(204, 93, 93, 1);
+  transform: translateY(-10px);
+  box-shadow: 2px 2px 40px rgba(204, 93, 93);
 
 
 }
 
 .button2:hover .dainfo{
-    visibility: visible;
+  visibility: visible;
   
 
 }
 
  .certme
  {
-   max-width: 2000px;
-   padding: 110px;
-   margin: -10px -4px -65px 150px;
+  max-width: 2000px;
+  padding: 110px;
+  margin: -10px -4px -65px 150px;
   
  
  }
@@ -160,12 +160,11 @@ color: #fff;
 
 
 .certdescription{
-color: #fff;
+  color: #fff;
   font-family: 'Playfair Display';
   position: absolute;
-  left: 270px;
+  left: 550px;
   top: 183px;
-
 }
 
 .projects {
@@ -215,8 +214,8 @@ margin-top: 40px;
 }
 
 .projectcontainer:hover{
-    transform: translateY(-10px);
-     box-shadow: 2px 2px 30px rgba(196, 168, 212, 1);
+  transform: translateY(-10px);
+  box-shadow: 2px 2px 30px rgba(196, 168, 212);
     
 }
 

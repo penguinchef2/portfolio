@@ -3,21 +3,21 @@
 }
 body{
   
-    width: 100%;
-    background-color:#150F2A;
+  width: 100%;
+  background-color:#150F2A;
 
 }
  main{
 
-    width: 100%;
-    background-color:#150F2A;
+  width: 100%;
+  background-color:#150F2A;
  }
 
  .educationme
  {
-   max-width: 700px;
-    padding: 110px;
-   margin: -100px -40px -65px 375px;
+  max-width: 700px;
+  padding: 110px;
+  margin: -100px -40px -65px 375px;
   
  
  }
@@ -35,7 +35,7 @@ body{
 
 
 .description{
-    color: #fff;
+  color: #fff;
   font-family: 'Playfair Display';
   position: absolute;
   left: 270px;
@@ -44,35 +44,35 @@ body{
  }
 
 nav a {
-   display: inline-block;
-   padding: 25px 45px 25px 45px;
-   transition: 0.6s;
+  display: inline-block;
+  padding: 25px 45px 25px 45px;
+  transition: 0.6s;
 
    
 }
 
 .navigationbar{
-   display: flex;
-   justify-content: flex-end;
-   box-shadow: 0 2px 7px rgba(196, 168, 212,0.1)
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 0 2px 7px rgba(196, 168, 212,0.1)
 }
 
 a {
 
-   color:#fff;
-   text-decoration: none;
+  color:#fff;
+  text-decoration: none;
 
 }
 
 .abouthover{
-   border-radius: 5px;
+  border-radius: 5px;
     
 }
 
 
 .abouthover:hover{
-   background: #7a5b8b;
-   filter: brightness(120%);
+  background: #7a5b8b;
+  filter: brightness(120%);
 
 }
 
@@ -142,9 +142,9 @@ background: #1e1a2e;
 }
 
 .githubicon{
-font-size: 100px;
+  font-size: 100px;
   margin-left: 240px;
-  margin-top: -120px;
+  margin-top: -140px;
   display: block;
   cursor: pointer;
 }
@@ -156,5 +156,19 @@ font-size: 100px;
   color: #fff;
   display:block;
   padding-top:15px;
+
+}
+
+.linkname{
+  margin-left: 30px;
+  color: #fff;
+  font-size: large;
+
+}
+
+.gitname{
+  margin-left: 275px;
+  color: #fff;
+  font-size: large;
 
 }

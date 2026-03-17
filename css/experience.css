@@ -3,65 +3,65 @@
 }
 body{
   
-    width: 100%;
-    background-color:#150F2A;
+   width: 100%;
+   background-color:#150F2A;
 
 }
  main{
 
-    width: 100%;
-    background-color:#150F2A;
+   width: 100%;
+   background-color:#150F2A;
  }
 
  .experienceme
  {
-max-width: 700px;
-  padding: 30px;
-  margin: 80px -40px -65px 455px;
+   max-width: 700px;
+   padding: 30px;
+   margin: 80px -40px -65px 455px;
  
  }
 
  .exptitle{
-color: #fff;
-  font-family: 'Playfair Display';
-  font-size: 35px;
-  opacity: 0.8;
-  margin-bottom: 0px;
-  margin-left: 205px;
+   color: #fff;
+   font-family: 'Playfair Display';
+   font-size: 35px;
+   opacity: 0.8;
+   margin-bottom: 0px;
+   margin-left: 205px;
  }
 
  .abouttitle{
 
-    color: #fff;
-    font-family: 'Playfair Display';
-    font-size : 40px;
-    opacity: 0.8;
-    margin-bottom: 0px;
-    margin-top:30px;
-    margin-left: 690px;
+   color: #fff;
+   font-family: 'Playfair Display';
+   font-size : 40px;
+   opacity: 0.8;
+   margin-bottom: 0px;
+   margin-top:30px;
+   margin-left: 690px;
 
  }
 
 
 .edudescription{
-color: #fff;
-  font-family: 'Playfair Display';
-  position: absolute;
-  left: 299px;
-  margin-top: 30px;
+   color: #fff;
+   font-family: 'Playfair Display';
+   position: absolute;
+   left: 299px;
+   margin-top: 30px;
  }
 
  .medescription{
-color: #fff;
-  font-family: 'Playfair Display';
-  position: absolute;
-  left: 270px;
-  margin-top: -355px;
-  margin-left: 500px;
-  margin-right: 200px;
-  font-size: 20px;
-  opacity: 0.7;
-  line-height: 45px;
+   color: #fff;
+   font-family: 'Playfair Display';
+   position: absolute;
+   left: 270px;
+   margin-top: -355px;
+   margin-left: 500px;
+   margin-right: 200px;
+   font-size: 20px;
+   opacity: 0.7;
+   line-height: 45px;
  }
 
  .penguin{
@@ -105,35 +105,35 @@ a {
 }
 
 .infobox{
-    width: 1070px;
-    height: 0;
-  background-color: rgba(196, 168, 212,0.6);
-  margin-left: 290px;
-  margin-top: 0px;
-  opacity: 0;
-  transition: 2s ease-in-out;
+   width: 1070px;
+   height: 0;
+   background-color: rgba(196, 168, 212,0.6);
+   margin-left: 290px;
+   margin-top: 0px;
+   opacity: 0;
+   transition: 2s ease-in-out;
 
 
 }
 
 .button1{
-    border-radius: 5px;
-    height: 85px;
-    width: 1000px;
-    background-color:#C4A8D4;
-    margin-left: 290px;
-    margin-top: 60px;
-    font-family: 'Playfair Display';
-    font-size: 20px;
-    padding-left: 70px;
-    text-align: left;
+   border-radius: 5px;
+   height: 85px;
+   width: 1000px;
+   background-color:#C4A8D4;
+   margin-left: 290px;
+   margin-top: 60px;
+   font-family: 'Playfair Display';
+   font-size: 20px;
+   padding-left: 70px;
+   text-align: left;
       
 }
 
 .button1:hover + .infobox{
 
-    height: 200px;
-    opacity: 1;
+   height: 200px;
+   opacity: 1;
   
 
 }
@@ -154,44 +154,44 @@ a {
 
 .button2:hover + .infobox{
    transition: 2s;
-    height: 200px;
-    opacity: 1;
+   height: 200px;
+   opacity: 1;
 
 }
 
 
 .button3{
-border-radius: 5px;
-  height: 85px;
-  width: 1000px;
-  background-color: #b8a0c7;
-  margin-left: 290px;
-  margin-top: 50px;
-  font-family: 'Playfair Display';
-  font-size: 20px;
-  padding-left: 70px;
-  text-align: left;
+   border-radius: 5px;
+   height: 85px;
+   width: 1000px;
+   background-color: #b8a0c7;
+   margin-left: 290px;
+   margin-top: 50px;
+   font-family: 'Playfair Display';
+   font-size: 20px;
+   padding-left: 70px;
+   text-align: left;
 
 }
 
 .button3:hover + .infobox{
    transition: 2s;
-    height: 200px;
-    opacity: 1;
+   height: 200px;
+    pacity: 1;
 
 }
 
 .button4{
-border-radius: 5px;
-  height: 85px;
-  width: 1000px;
-  background-color: #b8a0c7;
-  margin-left: 325px;
-  margin-top: 200px;
-  font-family: 'Playfair Display';
-  font-size: 20px;
-  padding-left: 70px;
-  text-align: left;
+   border-radius: 5px;
+   height: 85px;
+   width: 1000px;
+   background-color: #b8a0c7;
+   margin-left: 325px;
+   margin-top: 200px;
+   font-family: 'Playfair Display';
+   font-size: 20px;
+   padding-left: 70px;
+   text-align: left;
 }
 .button5{
  border-radius: 5px;
@@ -219,8 +219,8 @@ border-radius: 5px;
 }
 
 .experiencetitle{
-padding-left: 45px;
-  padding-top: 25px;
+   padding-left: 45px;
+   padding-top: 25px;
 
 }
 
@@ -239,61 +239,55 @@ padding-left: 45px;
 .educationme
  {
    max-width: 700px;
-    padding: 110px;
+   padding: 110px;
    margin: -100px -40px -65px 375px;
   
  
  }
 
  .edutitle{
-color: #fff;
-  font-family: 'Playfair Display';
-  font-size: 35px;
-  opacity: 0.8;
-  margin-bottom: 0px;
-  margin-left: 215px;
-  margin-top: 140px;
-  display: block;
+   color: #fff;
+   font-family: 'Playfair Display';
+   font-size: 35px;
+   opacity: 0.8;
+   margin-bottom: 0px;
+   margin-left: 215px;
+   margin-top: 140px;
+   display: block;
 
  }
 
 
 .expdescription{
-color: #fff;
-  font-family: 'Playfair Display';
-  position: absolute;
-  left: 590px;
-  top: 165px;
-
- }
-
- .mesub{
-   
+   color: #fff;
+   font-family: 'Playfair Display';
+   position: absolute;
+   left: 590px;
+   top: 165px;
 
  }
 
  .button1edu{
- border-radius: 50px;
-  height: 300px;
-  width: 500px;
-  background-color: #C4A8D4;
-  margin-left: 280px;
-  margin-top: 70px;
-  font-family: 'Playfair Display';
-  font-size: 20px;
-  padding-left: 70px;
-  text-align: left;
-  box-shadow: 15px 16px rgba(204, 93, 93, 0.4);
-  transition: 0.4s;
+   border-radius: 50px;
+   height: 300px;
+   width: 500px;
+   background-color: #C4A8D4;
+   margin-left: 280px;
+   margin-top: 70px;
+   font-family: 'Playfair Display';
+   font-size: 20px;
+   padding-left: 70px;
+   text-align: left;
+   box-shadow: 15px 16px rgba(204, 93, 93, 0.4);
+   transition: 0.4s;
   
 }
 
 
 .button2edu{
 
-
   border-radius: 50px;
-height: 300px;
+  height: 300px;
   width: 500px;
   background-color: #C4A8D4;
   margin-left: 70px;
@@ -310,26 +304,16 @@ height: 300px;
    
 
 .button1edu:hover{
-    transform: translateY(-10px);
-    box-shadow: 2px 2px 40px rgba(204, 93, 93, 1);
+   transform: translateY(-10px);
+   box-shadow: 2px 2px 40px rgba(204, 93, 93);
 
 }
 
-.button1edu:hover .sdeinfo{
-    visibility: visible;
-     
-    
-}
 
 .button2edu:hover{
-    transform: translateY(-10px);
-    box-shadow: 2px 2px 40px rgba(204, 93, 93, 1);
+   transform: translateY(-10px);
+   box-shadow: 2px 2px 40px rgba(204, 93, 93);
 
 
 }
 
-.button2edu:hover .dainfo{
-    visibility: visible;
-  
-
-}

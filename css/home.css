@@ -3,15 +3,13 @@
 }
 
 body{
-    height: 100vh;
-    width: 100%;
-    background-color:#150F2A;
+   width: 100%;
+   background-color:#150F2A;
 
 }
  main{
-    height: 100vh;
-    width: 100%;
-    background-color:#150F2A;
+   width: 100%;
+   background-color:#150F2A;
  }
 
  .aboutme
@@ -23,20 +21,20 @@ body{
  }
 
  .firstname{
-    color: #fff;
-    font-family: 'Playfair Display';
-    font-size : 70px;
-    margin-bottom: 0px;
-    margin-left: 50px;
+   color: #fff;
+   font-family: 'Playfair Display';
+   font-size : 70px;
+   margin-bottom: 0px;
+   margin-left: 50px;
 
  }
 
 .lastname{
-    color: #fff;
-    font-family: 'Playfair Display';
-    font-size : 70px;
-    margin-top: 0px;
-    margin-left: 35px;
+   color: #fff;
+   font-family: 'Playfair Display';
+   font-size : 70px;
+   margin-top: 0px;
+   margin-left: 35px;
  }
 
 .description{
@@ -47,43 +45,43 @@ body{
  }
 
  .learnbtn{
-    width: 150px;
-    height: 60px;
-    border-radius: 30px;
-    background-color: #C4A8D4;
-    color: #fff;
-    font-family: 'Playfair Display';
-    opacity: 0.7;
-    margin-left: 40px;
-    cursor: pointer;
-    transition: 0.3s;
+   width: 150px;
+   height: 60px;
+   border-radius: 30px;
+   background-color: #C4A8D4;
+   color: #fff;
+   font-family: 'Playfair Display';
+   opacity: 0.7;
+   margin-left: 40px;
+   cursor: pointer;
+   transition: 0.3s;
 
  }
 
  .contactbtn{
-    margin-left: 10px;
-    margin-top: 30px;
-    background-color: #982649;
-    width: 150px;
-    height: 60px;
-    border-radius: 30px;
-    border-color: #982649;
-    color: #fff;
-    font-family: 'Playfair Display';
-    opacity: 0.7;
-    cursor: pointer;
-    transition: 0.3s;
+   margin-left: 10px;
+   margin-top: 30px;
+   background-color: #982649;
+   width: 150px;
+   height: 60px;
+   border-radius: 30px;
+   border-color: #982649;
+   color: #fff;
+   font-family: 'Playfair Display';
+   opacity: 0.7;
+   cursor: pointer;
+   transition: 0.3s;
  }
 
  .contactbtn:hover{
-    filter: brightness(150%);
-    transform: translateY(-10px);
+   filter: brightness(150%);
+   transform: translateY(-10px);
  }
 
 .learnbtn:hover{
-    transform: translateY(-10px);
-    background-color: #C4A8D4;
-    opacity: 1;
+   transform: translateY(-10px);
+   background-color: #C4A8D4;
+   opacity: 1;
  }
 
 nav a {
@@ -100,16 +98,15 @@ nav a {
 }
 
 a {
-
    color:#fff;
    text-decoration: none;
 
 }
 
 .profilepic{
-  position: absolute;
-  margin-top: -350px;
-  margin-left: 850px;
+   position: absolute;
+   margin-top: -440px;
+   margin-left: 750px;
   
 }
 
