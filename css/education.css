@@ -148,12 +148,13 @@ height: 300px;
  }
 
  .certtitle{
-  color: #fff;
+color: #fff;
   font-family: 'Playfair Display';
   font-size: 40px;
   opacity: 0.8;
   margin-bottom: 0px;
-  margin-left: 475px;
+  margin-left: 445px;
+  margin-top: -70px;
 
  }
 

@@ -1,6 +1,7 @@
 * {
    margin: 0px;
 }
+
 body{
   
     width: 100%;
@@ -88,14 +89,13 @@ a {
 
 .experiencebuttons{
 
- background-color: rgba(196, 168, 212, 0.07);
+background-color: rgba(196, 168, 212, 0.07);
   margin-top: 40px;
   margin-left: 120px;
   margin-right: 120px;
-  height: 600px;
+  height: 450px;
   border-radius: 30px;
   margin-bottom: 0px;
-
 }
 
 .dainfo {
@@ -129,9 +129,6 @@ a {
 
 }
 
-
-
-
  .certme
  {
   max-width: 2000px;
@@ -142,12 +139,12 @@ a {
  }
 
  .certtitle{
-  color: #fff;
+color: #fff;
   font-family: 'Playfair Display';
   font-size: 40px;
   opacity: 0.8;
   margin-bottom: 0px;
-  margin-left: 235px;
+  margin-left: 190px;
 
  }
 
@@ -157,12 +154,12 @@ color: #fff;
   font-family: 'Playfair Display';
   position: absolute;
   left: 270px;
-  top: 1020px;
+  top: 170px;
 }
 
 
 .projects {
- display: grid;
+display: grid;
   grid-template-columns: 0.75fr 0.75fr 0.75fr;
   gap: 0px;
   margin-top: 0px;
@@ -172,13 +169,13 @@ color: #fff;
 }
 
 .skillsbox{
-    display: grid;
+display: grid;
   grid-template-columns: 250px 250px 250px 250px 250px;
   grid-template-rows: 200px 200px;
   place-items: center;
   gap: 0px;
   margin-top: 40px;
-  margin-left: -40px;
+  margin-left: -70px;
   margin-right: 130px;
   padding-right: 0px;
   height: 500px;
